@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Master Mind Game</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="difficulties">
+        <item>EASY</item>
+        <item>MEDIUM</item>
+        <item>HARD</item>
+    </string-array>
+    <string name="des">Our Android Project name is “Mastermind game”. The main advantage by playing this game we can improve our vocabulary. In this first one jumbled word is displayed on the screen, using the letters of the jumbled word we have to write the correct meaningful word in the box provided. If we write the correct word the score is displayed in the right side of the screen. For one correct word the user get ten points. If we write wrong word then another jumbled word is replaced. The time provided for this game as per the difficulty levels. After finishing the time it asks as we want to quit or try again.</string>
+    <string name="line1">1. Our Android Project name is “Mastermind game”. The main advantage by playing this game we can improve our vocabulary.</string>
+    <string name="line2">2. If we write the correct word the score is displayed in the left side of the screen.</string>
+    <string name="line3">3. For one correct word the user get ten points. If we write wrong word then another jumbled word is replaced.</string>
+    <string name="line4">4. The time provided for this game as per the difficulty levels. After finishing the time it asks as we want to quit or try again.</string>
+</resources>

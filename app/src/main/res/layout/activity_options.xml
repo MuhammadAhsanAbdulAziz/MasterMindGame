@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Difficulty"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"/>
+        <RadioGroup
+            android:id="@+id/ddiffgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:backgroundTint="@color/Orange"
+                android:id="@+id/eeasyradiobtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Easy"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/mmediumradiobtn"
+                android:backgroundTint="@color/Orange"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Medium"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:backgroundTint="@color/Orange"
+                android:id="@+id/hhardradiobtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hard"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/musicOnOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedgebtn"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:text="Music"
+            android:textSize="25dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logoutbtnn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedgebtn"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:text="Log out"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/easybtn"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginBottom="20dp"-->
+    <!--            android:text="Easy"-->
+    <!--            android:textSize="25dp"/>-->
+    <!--        <Button-->
+    <!--            android:id="@+id/mediumbtn"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginBottom="20dp"-->
+    <!--            android:text="Medium"-->
+    <!--            android:textSize="25dp"/>-->
+    <!--        <Button-->
+    <!--            android:id="@+id/hardbtn"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Hard"-->
+    <!--            android:textSize="25dp"-->
+    <!--            android:layout_marginBottom="20dp"/>-->
+    <!--        <Button-->
+    <!--            android:id="@+id/musicOnOff"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Music ON/OFF"-->
+    <!--            android:textSize="25dp"-->
+    <!--            android:layout_marginBottom="20dp"/>-->
+    <!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "58272732809",
+    "project_id": "master-mind-game-7896a",
+    "storage_bucket": "master-mind-game-7896a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58272732809:android:8092c9cf7a1e06cd1cd858",
+        "android_client_info": {
+          "package_name": "com.example.mastermindgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58272732809-l0gmvgsb49tul473ifkqdkleejprk4gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRrWpbhfjGX81N4QGHXgpeUzWinUN3kbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58272732809-l0gmvgsb49tul473ifkqdkleejprk4gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
